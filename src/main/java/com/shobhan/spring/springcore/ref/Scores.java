@@ -28,4 +28,11 @@ public class Scores {
 	public void setChemistry(double chemistry) {
 		this.chemistry = chemistry;
 	}
+
+	@Override
+	public String toString() {
+		return "Scores [maths=" + maths + ", physics=" + physics + ", chemistry=" + chemistry + "]";
+	}
+	
+	
 }
