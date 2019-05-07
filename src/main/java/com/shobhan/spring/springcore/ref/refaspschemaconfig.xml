@@ -7,7 +7,5 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
-	<bean name="scores"
-		class="com.shobhan.spring.springcore.ref.Scores" p:maths="80" p:physics="70" p:chemistry="88"/>
+	<bean name="scores" class="com.shobhan.spring.springcore.ref.Scores" p:maths="80" p:physics="70" p:chemistry="88"/>
 	<bean name="student" class="com.shobhan.spring.springcore.ref.Student" p:scores-ref="scores"/>
-</beans>
